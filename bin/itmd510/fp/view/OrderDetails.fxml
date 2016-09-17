@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="itmd510.fp.controller.OrderDetailsController">
+   <children>
+      <Label fx:id="greetUser" layoutX="101.0" layoutY="32.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="25.0" prefWidth="190.0" />
+      <Label fx:id="placedOrder" layoutX="101.0" layoutY="70.0" prefHeight="17.0" prefWidth="265.0" />
+      <Label layoutX="101.0" layoutY="109.0" text="Your delivery address is :" />
+      <Label fx:id="userAddress" layoutX="101.0" layoutY="145.0" prefHeight="17.0" prefWidth="140.0" />
+      <Label fx:id="totalBill" layoutX="94.0" layoutY="183.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="17.0" prefWidth="493.0" />
+      <Label layoutX="92.0" layoutY="231.0" text="We hope to see you again. Thank You.!!" />
+      <Button fx:id="logOut" layoutX="466.0" layoutY="273.0" mnemonicParsing="false" onAction="#LogOutCustomer" text="Logout" />
+      <Button fx:id="feedbackBtn" layoutX="145.0" layoutY="273.0" mnemonicParsing="false" onAction="#GiveFeedback" text="Give A Feedback" />
+      <Label layoutX="66.0" layoutY="343.0" text="Enter new Password : " />
+      <Button fx:id="updateAccount" layoutX="414.0" layoutY="339.0" mnemonicParsing="false" onAction="#UpdateAccount" prefHeight="25.0" prefWidth="115.0" text="Update Account" />
+      <PasswordField fx:id="updatePassword" layoutX="196.0" layoutY="339.0" promptText="New Password" />
+      <Label fx:id="passwordUpdatedLbl" layoutX="78.0" layoutY="373.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="17.0" prefWidth="307.0" />
+   </children>
+</AnchorPane>

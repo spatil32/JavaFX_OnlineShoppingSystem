@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="itmd510.fp.controller.LoginController">
+   <children>
+      <Label layoutX="43.0" layoutY="127.0" text="Enter Username : " />
+      <Label layoutX="43.0" layoutY="192.0" text="Enter Password : " />
+      <TextField fx:id="uname" layoutX="173.0" layoutY="123.0" prefHeight="25.0" prefWidth="192.0" promptText="Username" />
+      <Button fx:id="loginBtn" layoutX="230.0" layoutY="242.0" mnemonicParsing="false" onAction="#LoginCustomer" text="Login" />
+      <Label layoutX="101.0" layoutY="309.0" text="Register_here" />
+      <Button fx:id="registerBtn" layoutX="216.0" layoutY="305.0" mnemonicParsing="false" onAction="#RegisterCustomer" prefHeight="25.0" prefWidth="75.0" text="Register" />
+      <Label fx:id="userLabel" layoutX="291.0" layoutY="246.0" prefHeight="17.0" prefWidth="303.0" />
+      <Label fx:id="passwordLabel" layoutX="300.0" layoutY="288.0" prefHeight="17.0" prefWidth="296.0" />
+      <PasswordField fx:id="pwd" layoutX="173.0" layoutY="188.0" prefHeight="25.0" prefWidth="192.0" promptText="Password" />
+      <Label layoutX="180.0" layoutY="62.0" prefHeight="17.0" prefWidth="192.0" text="ONLINE SHOPPING SYSTEM" textFill="#14737c">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

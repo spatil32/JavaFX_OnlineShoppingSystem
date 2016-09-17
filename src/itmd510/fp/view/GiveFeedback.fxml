@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="itmd510.fp.controller.GiveFeedbackController">
+   <children>
+      <Label layoutX="184.0" layoutY="44.0" text="Please Rate Us for products quality.!!" />
+      <TextArea fx:id="descriptionField" layoutX="156.0" layoutY="79.0" prefHeight="200.0" prefWidth="255.0" promptText="Feedback Description" />
+      <TextField fx:id="ratingField" layoutX="260.0" layoutY="290.0" prefHeight="25.0" prefWidth="44.0" />
+      <Label layoutX="201.0" layoutY="294.0" text="Rating : " />
+      <Label layoutX="320.0" layoutY="294.0" text="/ 10" />
+      <Button fx:id="submitFeedback" layoutX="442.0" layoutY="326.0" mnemonicParsing="false" onAction="#NavigateToLogoutPage" prefHeight="25.0" prefWidth="109.0" text="Submit Feedback" />
+      <Label fx:id="RatingLbl" layoutX="383.0" layoutY="294.0" />
+   </children>
+</AnchorPane>
